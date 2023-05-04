@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="shortcut icon" href="https://www.youtube.com/s/desktop/bbdd2cc1/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section>
+        <div class="top-section">
+            <div class=" top top-left">
+                <div class="threeslash">
+                    <svg fill="#ffffff" width="64px" height="64px" viewBox="0 0 32 32" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC"
+                            stroke-width="2.112"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                d="M0.844 6.050c-0.256-0.256-0.381-0.581-0.381-0.975s0.125-0.719 0.381-0.975 0.581-0.381 0.975-0.381h28.512c0.394 0 0.719 0.125 0.975 0.381s0.381 0.581 0.381 0.975-0.125 0.719-0.381 0.975-0.581 0.381-0.975 0.381h-28.512c-0.394 0-0.719-0.125-0.975-0.381zM31.306 14.963c0.256 0.256 0.381 0.581 0.381 0.975s-0.125 0.719-0.381 0.975-0.581 0.381-0.975 0.381h-28.512c-0.394 0-0.719-0.125-0.975-0.381s-0.381-0.581-0.381-0.975 0.125-0.719 0.381-0.975 0.581-0.381 0.975-0.381h28.512c0.394 0 0.719 0.125 0.975 0.381zM31.306 25.819c0.256 0.256 0.381 0.581 0.381 0.975s-0.125 0.719-0.381 0.975-0.581 0.381-0.975 0.381h-28.512c-0.394 0-0.719-0.125-0.975-0.381s-0.381-0.581-0.381-0.975 0.125-0.719 0.381-0.975 0.581-0.381 0.975-0.381h28.512c0.394 0 0.719 0.131 0.975 0.381z">
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="logo">
+                    <img src="https://www.youtube.com/s/desktop/bbdd2cc1/img/favicon_96x96.png" alt="Logo">
+                </div>
+                <div class="logo-description">
+                    <p>YouTube <sup style="font-size: 11px; color:#a1a1a1;">NP</sup></p>
+                </div>
+            </div>
+            <div class="top top-center">
+                <div class="search">
+                    <input type="text" name="search" id="" placeholder="Search">
+                </div>
+                <div class="search-icon">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                d="M20 20L15.8033 15.8033M18 10.5C18 6.35786 14.6421 3 10.5 3C6.35786 3 3 6.35786 3 10.5C3 14.6421 6.35786 18 10.5 18C14.6421 18 18 14.6421 18 10.5Z"
+                                stroke="#8a8a8a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="mic">
+                    <svg width="24px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                d="M8 5C8 2.79086 9.79086 1 12 1C14.2091 1 16 2.79086 16 5V12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12V5Z"
+                                fill="#ffffff"></path>
+                            <path
+                                d="M6.25 11.8438V12C6.25 13.525 6.8558 14.9875 7.93414 16.0659C9.01247 17.1442 10.475 17.75 12 17.75C13.525 17.75 14.9875 17.1442 16.0659 16.0659C17.1442 14.9875 17.75 13.525 17.75 12V11.8438C17.75 11.2915 18.1977 10.8438 18.75 10.8438H19.25C19.8023 10.8438 20.25 11.2915 20.25 11.8437V12C20.25 14.188 19.3808 16.2865 17.8336 17.8336C16.5842 19.0831 14.9753 19.8903 13.25 20.1548V22C13.25 22.5523 12.8023 23 12.25 23H11.75C11.1977 23 10.75 22.5523 10.75 22V20.1548C9.02471 19.8903 7.41579 19.0831 6.16637 17.8336C4.61919 16.2865 3.75 14.188 3.75 12V11.8438C3.75 11.2915 4.19772 10.8438 4.75 10.8438H5.25C5.80228 10.8438 6.25 11.2915 6.25 11.8438Z"
+                                fill="#ffffff"></path>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <div class="top top-right">
+                <div class="create-icon">
+                    <img src="create.jpg" alt="">
+                </div>
+                <div class="notification">
+                    <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                d="M12.02 2.90991C8.70997 2.90991 6.01997 5.59991 6.01997 8.90991V11.7999C6.01997 12.4099 5.75997 13.3399 5.44997 13.8599L4.29997 15.7699C3.58997 16.9499 4.07997 18.2599 5.37997 18.6999C9.68997 20.1399 14.34 20.1399 18.65 18.6999C19.86 18.2999 20.39 16.8699 19.73 15.7699L18.58 13.8599C18.28 13.3399 18.02 12.4099 18.02 11.7999V8.90991C18.02 5.60991 15.32 2.90991 12.02 2.90991Z"
+                                stroke="#ffffff" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round">
+                            </path>
+                            <path
+                                d="M13.87 3.19994C13.56 3.10994 13.24 3.03994 12.91 2.99994C11.95 2.87994 11.03 2.94994 10.17 3.19994C10.46 2.45994 11.18 1.93994 12.02 1.93994C12.86 1.93994 13.58 2.45994 13.87 3.19994Z"
+                                stroke="#ffffff" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                            <path
+                                d="M15.02 19.0601C15.02 20.7101 13.67 22.0601 12.02 22.0601C11.2 22.0601 10.44 21.7201 9.90002 21.1801C9.36002 20.6401 9.02002 19.8801 9.02002 19.0601"
+                                stroke="#ffffff" stroke-width="1.5" stroke-miterlimit="10"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="profile">
+                    <img src="https://yt3.ggpht.com/yti/AHyvSCCa1HgGbu7e7ef4QZF2RCV8msnpkkMrj5sO05T0=s88-c-k-c0x00ffffff-no-rj-mo"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="main">
+        <div class="main-left">
+            <div class="left-category">
+                <div class="main-left-img">
+                    <img src="home.jpg" alt="">
+                </div>
+                <p> Home </p>
+            </div>
+            <div class="left-category">
+                <div class="main-left-img">
+                    <img src="shorts.jpg" alt="">
+                </div>
+                <p>Shorts</p>
+            </div>
+            <div class="left-category">
+                <div class="main-left-img">
+                    <img src="subscription.jpg" alt="">
+                </div>
+                <p>Subscription</p>
+            </div>
+            <hr />
+            <div class="left-category">
+                <div class="main-left-img">
+                    <img src="library.jpg" alt="">
+                </div>
+                <p>Library</p>
+            </div>
+            <div class="left-category">
+                <div class="main-left-img">
+                    <img src="history.jpg" alt="">
+                </div>
+                <p> History </p>
+            </div>
+            <div class="left-category">
+                <div class="main-left-img">
+                    <img src="watch-later.jpg" alt="">
+                </div>
+                <p>Watch-Later</p>
+            </div>
+            <div class="left-category">
+                <div class="main-left-img">
+                    <img src="liked-video.jpg" alt="">
+                </div>
+                <p>Liked Videos</p>
+            </div>
+            <hr>
+            <p>Subscription</p>
+            <div class="left-category">
+                <div class="main-left-img">
+                    <svg width="24px" height="24px" viewBox="0 0 1024 1024" class="icon" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                d="M703.90625 865.90625l-39.9375-15.65625 148.6875-380.0625c6.84375-17.53125-2.4375-37.3125-20.34375-43.125l-260.0625-84.9375c-16.6875-5.4375-34.6875 3.1875-40.875 19.59375L361.8125 704.46875l-61.40625-23.15625 181.875-481.125c6.09375-16.21875 23.8125-24.84375 40.40625-19.78125l389.0625 120.1875c18.1875 5.625 27.84375 25.5 20.90625 43.3125l-199.125 509.0625c-4.6875 11.71875-17.90625 17.53125-29.625 12.9375z"
+                                fill="#360682"></path>
+                            <path
+                                d="M241.0625 658.15625m-129.375 0a129.375 129.375 0 1 0 258.75 0 129.375 129.375 0 1 0-258.75 0Z"
+                                fill="#360682"></path>
+                            <path
+                                d="M614.375 802.90625m-129.375 0a129.375 129.375 0 1 0 258.75 0 129.375 129.375 0 1 0-258.75 0Z"
+                                fill="#360682"></path>
+                            <path
+                                d="M246.53333333 379.36666667L142.43333333 118.66666667c-6.8-16.9 2.4-36 19.8-41.3l107.9-32.9c14.4-4.4 29.7 2.5 36 16.2l13.2 28.8c7.5 16.3-0.9 35.4-17.9 41l-73.7 24.3c-6.9 2.3-10.5 9.9-7.8 16.6L290.33333333 350.96666667c2.1 5.4-0.5 11.4-5.9 13.6l-37.9 14.8z"
+                                fill="#E51C5A"></path>
+                            <path
+                                d="M211.53333333 379.36666667m-84.8 0a84.8 84.8 0 1 0 169.6 0 84.8 84.8 0 1 0-169.6 0Z"
+                                fill="#E51C5A"></path>
+                        </g>
+                    </svg>
+                </div>
+                <p> Music </p>
+            </div>
+            <div class="left-category">
+                <div class="main-left-img">
+                    <svg width="24px" height="20px" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" fill="#000000">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <defs>
+                                <style>
+                                    .cls-3 {
+                                        fill: #fcc402;
+                                    }
+
+                                    .cls-4 {
+                                        fill: #fce202;
+                                    }
+
+                                    .cls-6 {
+                                        fill: url(#linear-gradient-1);
+                                    }
+
+                                    .cls-8 {
+                                        fill: #ffffff;
+                                    }
+                                </style>
+                                <linearGradient id="linear-gradient-1" gradientUnits="userSpaceOnUse" x1="128" y1="172"
+                                    x2="128" y2="32">
+                                    <stop offset="0" stop-color="#fc9502"></stop>
+                                    <stop offset="1" stop-color="#fcbe02"></stop>
+                                </linearGradient>
+                            </defs>
+                            <g id="cup">
+                                <path
+                                    d="M63.000,224.000 C89.509,224.000 111.000,202.510 111.000,176.000 C111.000,176.000 111.000,154.000 111.000,154.000 C111.000,154.000 145.000,154.000 145.000,154.000 C145.000,154.000 145.000,176.000 145.000,176.000 C145.000,202.510 167.000,224.000 193.000,224.000 C219.000,224.000 29.420,224.000 63.000,224.000 Z"
+                                    id="path-1" class="cls-3" fill-rule="evenodd"></path>
+                                <path
+                                    d="M193.000,256.000 C193.000,256.000 63.000,256.000 63.000,256.000 C54.163,256.000 47.000,248.836 47.000,240.000 C47.000,231.163 54.163,224.000 63.000,224.000 C72.287,224.000 183.976,224.000 193.000,224.000 C201.836,224.000 209.000,231.163 209.000,240.000 C209.000,248.836 201.836,256.000 193.000,256.000 Z"
+                                    id="path-2" class="cls-4" fill-rule="evenodd"></path>
+                                <path
+                                    d="M248.000,62.000 C248.000,62.000 236.000,62.000 236.000,62.000 C217.222,62.000 201.000,77.222 201.000,96.000 C201.000,96.000 195.000,96.000 195.000,96.000 C195.000,96.000 195.000,62.000 195.000,62.000 C197.780,48.307 209.486,38.000 224.000,38.000 C224.000,38.000 248.000,38.000 248.000,38.000 C252.418,38.000 256.000,41.582 256.000,46.000 C256.000,46.000 256.000,54.000 256.000,54.000 C256.000,58.418 252.418,62.000 248.000,62.000 ZM20.000,62.000 C20.000,62.000 8.000,62.000 8.000,62.000 C3.582,62.000 -0.000,58.418 -0.000,54.000 C-0.000,54.000 -0.000,46.000 -0.000,46.000 C-0.000,41.582 3.582,38.000 8.000,38.000 C8.000,38.000 32.000,38.000 32.000,38.000 C46.513,38.000 58.220,48.307 61.000,62.000 C61.000,62.000 61.000,96.000 61.000,96.000 C61.000,96.000 55.000,96.000 55.000,96.000 C55.000,77.222 38.778,62.000 20.000,62.000 Z"
+                                    id="path-3" class="cls-4" fill-rule="evenodd"></path>
+                                <path
+                                    d="M54.000,32.000 C54.000,32.000 202.000,32.000 202.000,32.000 C202.000,32.000 202.000,98.000 202.000,98.000 C202.000,138.869 168.869,172.000 128.000,172.000 C87.131,172.000 54.000,138.869 54.000,98.000 C54.000,98.000 54.000,32.000 54.000,32.000 Z"
+                                    id="path-4" class="cls-6" fill-rule="evenodd"></path>
+                                <path
+                                    d="M52.000,-0.000 C52.000,-0.000 204.000,-0.000 204.000,-0.000 C208.418,-0.000 212.000,3.582 212.000,8.000 C212.000,8.000 212.000,16.000 212.000,16.000 C212.000,20.418 208.418,24.000 204.000,24.000 C204.000,24.000 52.000,24.000 52.000,24.000 C47.582,24.000 44.000,20.418 44.000,16.000 C44.000,16.000 44.000,8.000 44.000,8.000 C44.000,3.582 47.582,-0.000 52.000,-0.000 Z"
+                                    id="path-5" class="cls-3" fill-rule="evenodd"></path>
+                                <path
+                                    d="M162.856,90.349 C157.186,96.253 149.864,104.224 149.864,104.224 C149.864,104.224 151.121,114.155 152.104,122.143 C153.122,130.408 148.536,129.653 143.551,127.407 C136.369,124.171 128.000,120.112 128.000,120.112 C128.000,120.112 119.631,124.171 112.449,127.407 C107.464,129.653 102.877,130.408 103.895,122.143 C104.879,114.155 106.136,104.224 106.136,104.224 C106.136,104.224 98.814,96.253 93.144,90.349 C90.272,87.359 89.502,83.284 95.639,82.135 C103.704,80.624 114.487,78.513 114.487,78.513 C114.487,78.513 119.123,67.961 123.261,60.785 C125.386,57.099 130.614,57.099 132.739,60.785 C136.877,67.961 141.513,78.513 141.513,78.513 C141.513,78.513 152.296,80.624 160.361,82.135 C166.497,83.284 165.728,87.359 162.856,90.349 Z"
+                                    id="path-6" class="cls-8" fill-rule="evenodd"></path>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+                <p>Sports</p>
+            </div>
+            <div class="left-category">
+                <div class="main-left-img">
+                    <svg width="24px" height="24px" viewBox="0 0 1024 1024" class="icon" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                d="M890.88 424.96H189.44c-17.92 0-32 14.08-32 32v318.72c0 17.92 14.08 32 32 32h227.84l11.52-47.36c0-17.92 14.08-32 32-32h175.36c17.92 0 32 14.08 32 32l11.52 47.36h211.2c17.92 0 32-14.08 32-32V456.96c0-16.64-14.08-32-32-32z"
+                                fill="#00B2AE"></path>
+                            <path
+                                d="M890.88 821.76H679.68c-6.4 0-11.52-3.84-12.8-10.24l-11.52-47.36v-2.56c0-10.24-8.96-19.2-19.2-19.2H460.8c-10.24 0-19.2 8.96-19.2 19.2v2.56l-11.52 47.36c-1.28 5.12-6.4 10.24-12.8 10.24H189.44c-24.32 0-44.8-20.48-44.8-44.8v-320c0-24.32 20.48-44.8 44.8-44.8h702.72c24.32 0 44.8 20.48 44.8 44.8v318.72c-1.28 25.6-20.48 46.08-46.08 46.08z m-200.96-25.6h200.96c10.24 0 19.2-8.96 19.2-19.2v-320c0-10.24-8.96-19.2-19.2-19.2H189.44c-10.24 0-19.2 8.96-19.2 19.2v318.72c0 10.24 8.96 19.2 19.2 19.2h217.6l8.96-37.12c1.28-24.32 20.48-43.52 44.8-43.52h175.36c24.32 0 43.52 19.2 44.8 43.52l8.96 38.4z"
+                                fill="#231C1C"></path>
+                            <path
+                                d="M537.6 422.4h-25.6v-111.36c0-7.68 5.12-12.8 12.8-12.8h83.2v-115.2h25.6v128c0 7.68-5.12 12.8-12.8 12.8H537.6V422.4z"
+                                fill="#231C1C"></path>
+                            <path d="M700.16 552.96m-47.36 0a47.36 47.36 0 1 0 94.72 0 47.36 47.36 0 1 0-94.72 0Z"
+                                fill="#D4594C"></path>
+                            <path
+                                d="M700.16 614.4c-33.28 0-60.16-26.88-60.16-60.16s26.88-60.16 60.16-60.16 60.16 26.88 60.16 60.16c0 32-26.88 60.16-60.16 60.16z m0-96c-19.2 0-34.56 15.36-34.56 34.56s15.36 34.56 34.56 34.56 34.56-15.36 34.56-34.56-15.36-34.56-34.56-34.56z"
+                                fill="#231C1C"></path>
+                            <path d="M811.52 648.96m-47.36 0a47.36 47.36 0 1 0 94.72 0 47.36 47.36 0 1 0-94.72 0Z"
+                                fill="#B8CA43"></path>
+                            <path
+                                d="M811.52 709.12c-33.28 0-60.16-26.88-60.16-60.16s26.88-60.16 60.16-60.16 60.16 26.88 60.16 60.16-26.88 60.16-60.16 60.16z m0-94.72c-19.2 0-34.56 15.36-34.56 34.56s15.36 34.56 34.56 34.56 34.56-15.36 34.56-34.56-15.36-34.56-34.56-34.56z"
+                                fill="#231C1C"></path>
+                            <path d="M380.16 569.6H332.8v-48.64h-64v48.64h-47.36v64H268.8v47.36h64v-47.36h47.36z"
+                                fill="#FAC546"></path>
+                            <path
+                                d="M332.8 693.76h-64c-7.68 0-12.8-5.12-12.8-12.8v-34.56h-34.56c-7.68 0-12.8-5.12-12.8-12.8v-64c0-7.68 5.12-12.8 12.8-12.8H256v-34.56c0-7.68 5.12-12.8 12.8-12.8h64c7.68 0 12.8 5.12 12.8 12.8v34.56h34.56c7.68 0 12.8 5.12 12.8 12.8v64c0 7.68-5.12 12.8-12.8 12.8H345.6v34.56c0 6.4-6.4 12.8-12.8 12.8z m-51.2-25.6h38.4v-34.56c0-7.68 5.12-12.8 12.8-12.8h34.56v-38.4H332.8c-7.68 0-12.8-5.12-12.8-12.8v-34.56h-38.4v34.56c0 7.68-5.12 12.8-12.8 12.8h-34.56v38.4H268.8c7.68 0 12.8 5.12 12.8 12.8v34.56z"
+                                fill="#231C1C"></path>
+                        </g>
+                    </svg>
+                </div>
+                <p>Gaming</p>
+            </div>
+            <div class="left-category">
+                <div class="main-left-img">
+                    <svg width="24px" height="24px" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <rect width="48" height="48" fill="white" fill-opacity="0.01"></rect>
+                            <path
+                                d="M5 16H43C43.5523 16 44 16.4477 44 17V39C44 39.5523 43.5523 40 43 40H30L24.0083 34.0013L18 40H5C4.44772 40 4 39.5523 4 39V17C4 16.4477 4.44772 16 5 16Z"
+                                fill="#2F88FF" stroke="#000000" stroke-width="4" stroke-linejoin="round"></path>
+                            <path
+                                d="M14 32C16.2091 32 18 30.2091 18 28C18 25.7909 16.2091 24 14 24C11.7909 24 10 25.7909 10 28C10 30.2091 11.7909 32 14 32Z"
+                                fill="#43CCF8" stroke="white" stroke-width="4" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                            <path
+                                d="M34 32C36.2091 32 38 30.2091 38 28C38 25.7909 36.2091 24 34 24C31.7909 24 30 25.7909 30 28C30 30.2091 31.7909 32 34 32Z"
+                                fill="#43CCF8" stroke="white" stroke-width="4" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6 10H42H6Z" fill="#2F88FF"></path>
+                            <path d="M6 10H42" stroke="#000000" stroke-width="4" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                        </g>
+                    </svg>
+                </div>
+                <p> 360 Videos </p>
+            </div>
+            <hr>
+            <p>Explore</p>
+            <div class="left-category">
+                <div class="main-left-img">
+                    <svg fill="#ffffff" width="24px" height="24px" viewBox="0 0 16 16"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                d="M9.32 15.653a.812.812 0 0 1-.086-.855c.176-.342.245-.733.2-1.118a2.106 2.106 0 0 0-.267-.779 2.027 2.027 0 0 0-.541-.606 3.96 3.96 0 0 1-1.481-2.282c-1.708 2.239-1.053 3.51-.235 4.63a.748.748 0 0 1-.014.901.87.87 0 0 1-.394.283.838.838 0 0 1-.478.023c-1.105-.27-2.145-.784-2.85-1.603a4.686 4.686 0 0 1-.906-1.555 4.811 4.811 0 0 1-.263-1.797s-.133-2.463 2.837-4.876c0 0 3.51-2.978 2.292-5.18a.621.621 0 0 1 .112-.653.558.558 0 0 1 .623-.147l.146.058a7.63 7.63 0 0 1 2.96 3.5c.58 1.413.576 3.06.184 4.527.325-.292.596-.641.801-1.033l.029-.064c.198-.477.821-.325 1.055-.013.086.137 2.292 3.343 1.107 6.048a5.516 5.516 0 0 1-1.84 2.027 6.127 6.127 0 0 1-2.138.893.834.834 0 0 1-.472-.038.867.867 0 0 1-.381-.29zM7.554 7.892a.422.422 0 0 1 .55.146c.04.059.066.126.075.198l.045.349c.02.511.014 1.045.213 1.536.206.504.526.95.932 1.298a3.06 3.06 0 0 1 1.16 1.422c.22.564.25 1.19.084 1.773a4.123 4.123 0 0 0 1.39-.757l.103-.084c.336-.277.613-.623.813-1.017.201-.393.322-.825.354-1.269.065-1.025-.284-2.054-.827-2.972-.248.36-.59.639-.985.804-.247.105-.509.17-.776.19a.792.792 0 0 1-.439-.1.832.832 0 0 1-.321-.328.825.825 0 0 1-.035-.729c.412-.972.54-2.05.365-3.097a5.874 5.874 0 0 0-1.642-3.16c-.156 2.205-2.417 4.258-2.881 4.7a3.537 3.537 0 0 1-.224.194c-2.426 1.965-2.26 3.755-2.26 3.834a3.678 3.678 0 0 0 .459 2.043c.365.645.89 1.177 1.52 1.54C4.5 12.808 4.5 10.89 7.183 8.14l.372-.25z">
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <p>Trending</p>
+            </div>
+            <div class="left-category">
+                <div class="main-left-img">
+                    <svg fill="#ffffff" width="24px" height="24px" viewBox="0 0 32 32" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                d="M26.644 10.103l-9.779-9.778c-0.31-0.31-0.771-0.37-1.144-0.188-0.392 0.136-0.675 0.503-0.675 0.942v22.137c-1.060-0.785-2.451-1.267-3.98-1.267-3.314 0-6.003 2.243-6.003 5.009s2.689 5.011 6.003 5.011c3.316 0 6.003-2.243 6.003-5.011 0-0.122-0.012-0.242-0.022-0.363v-23.261l8.184 8.183c0.39 0.39 1.024 0.39 1.414 0s0.39-1.024 0-1.414zM11.043 29.956c-2.364 0-4.011-1.579-4.011-2.996s1.647-2.994 4.011-2.994c2.313 0 3.938 1.512 4.004 2.906v0.177c-0.067 1.393-1.691 2.907-4.004 2.907v0z">
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <p> Music </p>
+            </div>
+            <div class="left-category">
+                <div class="main-left-img">
+                    <svg fill="#ffffff" width="24px" height="24px" viewBox="0 0 1069 1069"
+                        style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"
+                        version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <rect height="1066.67" id="Console" style="fill:none;" width="1066.67" x="1.397" y="0.592">
+                            </rect>
+                            <g>
+                                <path
+                                    d="M434.469,693.912l200.523,-0c13.34,46.165 44.047,85.433 85.747,109.508c42.759,24.687 93.575,31.377 141.267,18.598c0.035,-0.01 0.071,-0.019 0.106,-0.029c47.692,-12.779 88.355,-43.98 113.042,-86.74c24.687,-42.759 31.377,-93.575 18.598,-141.267c-17.208,-64.223 -37.272,-139.1 -54.48,-203.323c-12.779,-47.692 -43.98,-88.355 -86.74,-113.042c-42.76,-24.687 -93.575,-31.377 -141.267,-18.598c-0.036,0.009 -0.071,0.019 -0.107,0.029c-27.438,7.351 -52.55,20.801 -73.63,39.042c0.013,-0.012 -205.608,-0.012 -205.608,-0.012c-21.055,-18.223 -46.172,-31.677 -73.617,-39.031c-0.035,-0.009 -0.071,-0.019 -0.106,-0.028c-47.692,-12.779 -98.508,-6.089 -141.267,18.598c-42.76,24.687 -73.961,65.35 -86.74,113.042c-17.209,64.223 -37.272,139.1 -54.481,203.323c-12.779,47.692 -6.089,98.508 18.598,141.267c24.688,42.76 65.35,73.961 113.042,86.74c0.036,0.01 0.071,0.019 0.107,0.029c47.692,12.779 98.507,6.089 141.267,-18.598c41.699,-24.075 72.406,-63.343 85.746,-109.508Zm254.788,-38.789c-7.111,-24.401 -29.867,-23.713 -30.333,-23.711c-125.182,0.391 -248.387,-0 -248.387,-0c-16.192,0.388 -27,11.117 -30.332,23.711c-2.122,8.02 -3.362,12.53 -4.992,18.63c-2.627,9.835 -2.635,9.833 -0.12,0.449c-8.489,31.681 -29.216,58.692 -57.62,75.091c-28.404,16.399 -62.16,20.843 -93.841,12.354l-0.107,-0.028c-31.681,-8.489 -58.692,-29.215 -75.091,-57.62c-16.399,-28.404 -20.843,-62.16 -12.354,-93.841c17.208,-64.223 37.271,-139.1 54.48,-203.323c8.489,-31.681 29.215,-58.692 57.62,-75.092c28.404,-16.399 62.16,-20.843 93.84,-12.354l0.107,0.029c21.15,5.667 40.219,16.788 55.438,32.007c5.861,5.861 13.809,9.153 22.097,9.153l230.137,0c8.288,0 16.237,-3.292 22.097,-9.153c15.219,-15.219 34.288,-26.34 55.438,-32.007l0.107,-0.029c31.681,-8.489 65.437,-4.045 93.841,12.354c28.404,16.4 49.131,43.411 57.62,75.092c17.208,64.223 37.271,139.1 54.48,203.323c8.489,31.681 4.045,65.437 -12.354,93.841c-16.4,28.405 -43.411,49.131 -75.092,57.62l-0.107,0.028c-31.681,8.489 -65.436,4.045 -93.841,-12.354c-28.124,-16.238 -48.721,-42.879 -57.365,-74.156l-5.366,-20.014Zm-254.973,38.789l-0.014,-0l-0.085,0.229l-0.654,1.495c0.268,-0.564 0.52,-1.139 0.753,-1.724Zm-149.553,-233.128l-31.026,0c-17.247,0 -31.25,14.003 -31.25,31.25c0,17.247 14.003,31.25 31.25,31.25l31.026,0l-0,31.026c-0,17.247 14.002,31.25 31.25,31.25c17.247,-0 31.25,-14.003 31.25,-31.25l-0,-31.026l31.025,0c17.248,0 31.25,-14.003 31.25,-31.25c0,-17.247 -14.002,-31.25 -31.25,-31.25l-31.025,0l-0,-31.026c-0,-17.247 -14.003,-31.25 -31.25,-31.25c-17.248,0 -31.25,14.003 -31.25,31.25l-0,31.026Z">
+                                </path>
+                                <path
+                                    d="M720.632,552.486c-0,-18.253 14.819,-33.073 33.073,-33.073c18.254,0 33.073,14.82 33.073,33.073c0,18.254 -14.819,33.074 -33.073,33.074c-18.254,-0 -33.073,-14.82 -33.073,-33.074Zm93.525,-93.525c18.254,-0 33.074,14.819 33.074,33.073c-0,18.254 -14.82,33.073 -33.074,33.073c-18.253,0 -33.073,-14.819 -33.073,-33.073c0,-18.254 14.82,-33.073 33.073,-33.073Zm-120.904,-0c18.253,-0 33.073,14.819 33.073,33.073c-0,18.254 -14.82,33.073 -33.073,33.073c-18.254,0 -33.074,-14.819 -33.074,-33.073c0,-18.254 14.82,-33.073 33.074,-33.073Zm27.379,-27.379c-0,-18.254 14.819,-33.074 33.073,-33.074c18.254,0 33.073,14.82 33.073,33.074c0,18.253 -14.819,33.073 -33.073,33.073c-18.254,-0 -33.073,-14.82 -33.073,-33.073Z"
+                                    style="fill-opacity:0.5;"></path>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+                <p>Gaming</p>
+            </div>
+            <div class="left-category">
+                <div class="main-left-img">
+                    <svg fill="#ffffff" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 72 72"
+                        enable-background="new 0 0 72 72" xml:space="preserve">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <g>
+                                <path
+                                    d="M34.443,44.563c-5.67-1.027-8.073-4.601-8.073-11.583v-5.687c0-0.553-0.447-1-1-1c-0.553,0-1,0.447-1,1v5.687 c0,7.917,3.095,12.351,9.716,13.552c0.061,0.011-0.003,0.016,0.056,0.016c0.474,0,0.957-0.339,1.044-0.822 C35.284,45.182,34.986,44.661,34.443,44.563z">
+                                </path>
+                                <path
+                                    d="M37.123,48.5h1c0.553,0,1-0.447,1-1s-0.447-1-1-1h-1c-0.553,0-1,0.447-1,1S36.57,48.5,37.123,48.5z">
+                                </path>
+                                <path
+                                    d="M58.067,38.355c6.604-1.966,10.726-14.222,10.726-20.896c0-2.653-0.643-4.564-1.962-5.845 c-2.046-1.985-5.082-1.895-8.299-1.795c-0.053,0.001-0.11,0.001-0.163,0.003V5.293c0-1.105-1.143-1.793-2.247-1.793h-38 c-1.105,0-1.753,0.689-1.753,1.793V9.97c-0.194-0.063-0.396-0.105-0.611-0.105c-0.787,0-1.554-0.024-2.29-0.046 c-3.211-0.099-6.252-0.19-8.299,1.795c-1.32,1.282-1.962,3.193-1.962,5.845c0,7.271,4.888,21.174,12.551,21.174 c0.329,0,0.635-0.087,0.908-0.229c1.53,9.115,8.885,16.78,17.704,17.938V64.5H22.123c-1.104,0-2,0.896-2,2s0.896,2,2,2h29 c1.105,0,2-0.896,2-2s-0.896-2-2-2H38.37v-8.021C47.881,56.069,56.394,48.021,58.067,38.355z M7.207,17.459 c0-1.026,0.13-2.374,0.747-2.974c0.833-0.806,3.048-0.739,5.393-0.668c0.775,0.024,1.582,0.048,2.411,0.048 c0.215,0,0.417-0.042,0.611-0.105v20.979c-0.194-0.063-0.396-0.105-0.611-0.105C11.793,34.633,7.207,24.24,7.207,17.459z M58.652,13.817c2.348-0.071,4.562-0.138,5.394,0.668c0.617,0.6,0.747,1.949,0.747,2.974c0,5.585-3.111,13.615-6.424,16.275V13.822 C58.461,13.82,58.562,13.819,58.652,13.817z M20.37,34.922V7.5h34.001v3.678c-0.079,0.215-0.129,0.444-0.129,0.687 c0,0.243,0.05,0.472,0.129,0.687v22.37c0,0.417-0.035,0.831-0.068,1.244c-0.036,0.15-0.061,0.305-0.061,0.467 c0,0.043,0.01,0.083,0.013,0.126C53.262,45.124,45.669,52.5,37.613,52.5H37.24c-0.264-0.129-0.557-0.207-0.87-0.207 c-0.26,0-0.507,0.054-0.735,0.144C27.412,51.79,20.37,43.646,20.37,34.922z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+                <p>Sports</p>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="main-category">
+                <div>
+                    <p> All </p>
+                </div>
+                <div>
+                    <p> Music </p>
+                </div>
+                <div>
+                    <p> Gaming </p>
+                </div>
+                <div>
+                    <p> HTML </p>
+                </div>
+                <div>
+                    <p> AI </p>
+                </div>
+                <div>
+                    <p> Computers </p>
+                </div>
+                <div>
+                    <p> Live </p>
+                </div>
+                <div>
+                    <p> Comedy </p>
+                </div>
+                <div>
+                    <p> Bollywood Music </p>
+                </div>
+                <div>
+                    <p> Security Hackers </p>
+                </div>
+                <div>
+                    <p> Lectures </p>
+                </div>
+                <div>
+                    <p> Gadgets </p>
+                </div>
+                <div>
+                    <p> Electrical Engineering </p>
+                </div>
+                <div>
+                    <p> Conversation </p>
+                </div>
+                <div>
+                    <p> Visual Arts </p>
+                </div>
+                <div>
+                    <p> Recently Uploaded </p>
+                </div>
+            </div>
+            <div class="videos">
+                <div class="video-shower">
+                    <div class="video-thumbnail">
+                        <img src="https://media.istockphoto.com/id/530450181/photo/nepal.jpg?b=1&s=612x612&w=0&k=20&c=DvAQDJ_PaQuyibVbQuSF4XUodnubNZl9_zBPjTsDVgE="
+                            alt="">
+                    </div>
+                    <div class="video-details">
+                        <div class="detail-template">
+                            <div class="creator-profile">
+                                <img src="https://yt3.ggpht.com/yti/AHyvSCCa1HgGbu7e7ef4QZF2RCV8msnpkkMrj5sO05T0=s88-c-k-c0x00ffffff-no-rj-mo"
+                                    alt="creator-profile">
+                            </div>
+                            <div class="video-description">
+                                <div class="title">
+                                    <p>Great Country, Nepal I love this country very much so pleased to visit here.
+                                    </p>
+                                </div>
+                                <div class="creator-name">Subarna Mainali</div>
+                                <div class="views-time">144k views <sup>. </sup>2 year ago </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-shower">
+                    <div class="video-thumbnail">
+                        <img src="https://media.istockphoto.com/id/530450181/photo/nepal.jpg?b=1&s=612x612&w=0&k=20&c=DvAQDJ_PaQuyibVbQuSF4XUodnubNZl9_zBPjTsDVgE="
+                            alt="">
+                    </div>
+                    <div class="video-details">
+                        <div class="detail-template">
+                            <div class="creator-profile">
+                                <img src="https://yt3.ggpht.com/yti/AHyvSCCa1HgGbu7e7ef4QZF2RCV8msnpkkMrj5sO05T0=s88-c-k-c0x00ffffff-no-rj-mo"
+                                    alt="creator-profile">
+                            </div>
+                            <div class="video-description">
+                                <div class="title">
+                                    <p>Great Country, Nepal I love this country very much so pleased to visit here.
+                                    </p>
+                                </div>
+                                <div class="creator-name">Subarna Mainali</div>
+                                <div class="views-time">144k views <sup>. </sup>2 year ago </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-shower">
+                    <div class="video-thumbnail">
+                        <img src="https://media.istockphoto.com/id/530450181/photo/nepal.jpg?b=1&s=612x612&w=0&k=20&c=DvAQDJ_PaQuyibVbQuSF4XUodnubNZl9_zBPjTsDVgE="
+                            alt="">
+                    </div>
+                    <div class="video-details">
+                        <div class="detail-template">
+                            <div class="creator-profile">
+                                <img src="https://yt3.ggpht.com/yti/AHyvSCCa1HgGbu7e7ef4QZF2RCV8msnpkkMrj5sO05T0=s88-c-k-c0x00ffffff-no-rj-mo"
+                                    alt="creator-profile">
+                            </div>
+                            <div class="video-description">
+                                <div class="title">
+                                    <p>Great Country, Nepal I love this country very much so pleased to visit here.
+                                    </p>
+                                </div>
+                                <div class="creator-name">Subarna Mainali</div>
+                                <div class="views-time">144k views <sup>. </sup>2 year ago </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-shower">
+                    <div class="video-thumbnail">
+                        <img src="https://media.istockphoto.com/id/530450181/photo/nepal.jpg?b=1&s=612x612&w=0&k=20&c=DvAQDJ_PaQuyibVbQuSF4XUodnubNZl9_zBPjTsDVgE="
+                            alt="">
+                    </div>
+                    <div class="video-details">
+                        <div class="detail-template">
+                            <div class="creator-profile">
+                                <img src="https://yt3.ggpht.com/yti/AHyvSCCa1HgGbu7e7ef4QZF2RCV8msnpkkMrj5sO05T0=s88-c-k-c0x00ffffff-no-rj-mo"
+                                    alt="creator-profile">
+                            </div>
+                            <div class="video-description">
+                                <div class="title">
+                                    <p>Great Country, Nepal I love this country very much so pleased to visit here.
+                                    </p>
+                                </div>
+                                <div class="creator-name">Subarna Mainali</div>
+                                <div class="views-time">144k views <sup>. </sup>2 year ago </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-shower">
+                    <div class="video-thumbnail">
+                        <img src="https://media.istockphoto.com/id/530450181/photo/nepal.jpg?b=1&s=612x612&w=0&k=20&c=DvAQDJ_PaQuyibVbQuSF4XUodnubNZl9_zBPjTsDVgE="
+                            alt="">
+                    </div>
+                    <div class="video-details">
+                        <div class="detail-template">
+                            <div class="creator-profile">
+                                <img src="https://yt3.ggpht.com/yti/AHyvSCCa1HgGbu7e7ef4QZF2RCV8msnpkkMrj5sO05T0=s88-c-k-c0x00ffffff-no-rj-mo"
+                                    alt="creator-profile">
+                            </div>
+                            <div class="video-description">
+                                <div class="title">
+                                    <p>Great Country, Nepal I love this country very much so pleased to visit here.
+                                    </p>
+                                </div>
+                                <div class="creator-name">Subarna Mainali</div>
+                                <div class="views-time">144k views <sup>. </sup>2 year ago </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-shower">
+                    <div class="video-thumbnail">
+                        <img src="https://media.istockphoto.com/id/530450181/photo/nepal.jpg?b=1&s=612x612&w=0&k=20&c=DvAQDJ_PaQuyibVbQuSF4XUodnubNZl9_zBPjTsDVgE="
+                            alt="">
+                    </div>
+                    <div class="video-details">
+                        <div class="detail-template">
+                            <div class="creator-profile">
+                                <img src="https://yt3.ggpht.com/yti/AHyvSCCa1HgGbu7e7ef4QZF2RCV8msnpkkMrj5sO05T0=s88-c-k-c0x00ffffff-no-rj-mo"
+                                    alt="creator-profile">
+                            </div>
+                            <div class="video-description">
+                                <div class="title">
+                                    <p>Great Country, Nepal I love this country very much so pleased to visit here.
+                                    </p>
+                                </div>
+                                <div class="creator-name">Subarna Mainali</div>
+                                <div class="views-time">144k views <sup>. </sup>2 year ago </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-shower">
+                    <div class="video-thumbnail">
+                        <img src="https://media.istockphoto.com/id/530450181/photo/nepal.jpg?b=1&s=612x612&w=0&k=20&c=DvAQDJ_PaQuyibVbQuSF4XUodnubNZl9_zBPjTsDVgE="
+                            alt="">
+                    </div>
+                    <div class="video-details">
+                        <div class="detail-template">
+                            <div class="creator-profile">
+                                <img src="https://yt3.ggpht.com/yti/AHyvSCCa1HgGbu7e7ef4QZF2RCV8msnpkkMrj5sO05T0=s88-c-k-c0x00ffffff-no-rj-mo"
+                                    alt="creator-profile">
+                            </div>
+                            <div class="video-description">
+                                <div class="title">
+                                    <p>Great Country, Nepal I love this country very much so pleased to visit here.
+                                    </p>
+                                </div>
+                                <div class="creator-name">Subarna Mainali</div>
+                                <div class="views-time">144k views <sup>. </sup>2 year ago </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-shower">
+                    <div class="video-thumbnail">
+                        <img src="https://media.istockphoto.com/id/530450181/photo/nepal.jpg?b=1&s=612x612&w=0&k=20&c=DvAQDJ_PaQuyibVbQuSF4XUodnubNZl9_zBPjTsDVgE="
+                            alt="">
+                    </div>
+                    <div class="video-details">
+                        <div class="detail-template">
+                            <div class="creator-profile">
+                                <img src="https://yt3.ggpht.com/yti/AHyvSCCa1HgGbu7e7ef4QZF2RCV8msnpkkMrj5sO05T0=s88-c-k-c0x00ffffff-no-rj-mo"
+                                    alt="creator-profile">
+                            </div>
+                            <div class="video-description">
+                                <div class="title">
+                                    <p>Great Country, Nepal I love this country very much so pleased to visit here.
+                                    </p>
+                                </div>
+                                <div class="creator-name">Subarna Mainali</div>
+                                <div class="views-time">144k views <sup>. </sup>2 year ago </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="divider">
+            <div class="shorts-logo">
+                <img src="logos.jpg" alt="short-logo">
+            </div>
+            <div class="youtube-shorts">
+                <div class="content-shorts">
+                    <div class="thumbnail-shorts">
+                        <img src="https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmVwYWx8ZW58MHx8MHx8&w=1000&q=80"
+                            alt="">
+                    </div>
+                    <div class="title">
+                       <p>Heaven is myth here is real.</p>
+                    </div>
+                    <div class="views">
+                        <p>320M views</p>
+                    </div>
+                </div>
+                <div class="content-shorts">
+                    <div class="thumbnail-shorts">
+                        <img src="https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmVwYWx8ZW58MHx8MHx8&w=1000&q=80"
+                            alt="">
+                    </div>
+                    <div class="title">
+                       <p>Heaven is myth here is real.</p>
+                    </div>
+                    <div class="views">
+                        <p>320M views</p>
+                    </div>
+                </div>
+                <div class="content-shorts">
+                    <div class="thumbnail-shorts">
+                        <img src="https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmVwYWx8ZW58MHx8MHx8&w=1000&q=80"
+                            alt="">
+                    </div>
+                    <div class="title">
+                       <p>Heaven is myth here is real.</p>
+                    </div>
+                    <div class="views">
+                        <p>320M views</p>
+                    </div>
+                </div>
+                <div class="content-shorts">
+                    <div class="thumbnail-shorts">
+                        <img src="https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmVwYWx8ZW58MHx8MHx8&w=1000&q=80"
+                            alt="">
+                    </div>
+                    <div class="title">
+                       <p>Heaven is myth here is real.</p>
+                    </div>
+                    <div class="views">
+                        <p>320M views</p>
+                    </div>
+                </div>
+                <div class="content-shorts">
+                    <div class="thumbnail-shorts">
+                        <img src="https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmVwYWx8ZW58MHx8MHx8&w=1000&q=80"
+                            alt="">
+                    </div>
+                    <div class="title">
+                       <p>Heaven is myth here is real.</p>
+                    </div>
+                    <div class="views">
+                        <p>320M views</p>
+                    </div>
+                </div>
+                <div class="content-shorts">
+                    <div class="thumbnail-shorts">
+                        <img src="https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmVwYWx8ZW58MHx8MHx8&w=1000&q=80"
+                            alt="">
+                    </div>
+                    <div class="title">
+                       <p>Heaven is myth here is real.</p>
+                    </div>
+                    <div class="views">
+                        <p>320M views</p>
+                    </div>
+                </div>
+                <div class="content-shorts">
+                    <div class="thumbnail-shorts">
+                        <img src="https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmVwYWx8ZW58MHx8MHx8&w=1000&q=80"
+                            alt="">
+                    </div>
+                    <div class="title">
+                       <p>Heaven is myth here is real.</p>
+                    </div>
+                    <div class="views">
+                        <p>320M views</p>
+                    </div>
+                </div>
+                <div class="content-shorts">
+                    <div class="thumbnail-shorts">
+                        <img src="https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmVwYWx8ZW58MHx8MHx8&w=1000&q=80"
+                            alt="">
+                    </div>
+                    <div class="title">
+                    <p>Heaven is myth here is real.</p>
+                    </div>
+                    <div class="views">
+                        <p>320M views</p>
+                    </div>
+                </div>
+            </div>
+             <hr class="divider">
+            <div class="videos">
+                <div class="video-shower">
+                    <div class="video-thumbnail">
+                        <img src="https://media.istockphoto.com/id/530450181/photo/nepal.jpg?b=1&s=612x612&w=0&k=20&c=DvAQDJ_PaQuyibVbQuSF4XUodnubNZl9_zBPjTsDVgE="
+                            alt="">
+                    </div>
+                    <div class="video-details">
+                        <div class="detail-template">
+                            <div class="creator-profile">
+                                <img src="https://yt3.ggpht.com/yti/AHyvSCCa1HgGbu7e7ef4QZF2RCV8msnpkkMrj5sO05T0=s88-c-k-c0x00ffffff-no-rj-mo"
+                                    alt="creator-profile">
+                            </div>
+                            <div class="video-description">
+                                <div class="title">
+                                    <p>Great Country, Nepal I love this country very much so pleased to visit here.
+                                    </p>
+                                </div>
+                                <div class="creator-name">Subarna Mainali</div>
+                                <div class="views-time">144k views <sup>. </sup>2 year ago </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-shower">
+                    <div class="video-thumbnail">
+                        <img src="https://media.istockphoto.com/id/530450181/photo/nepal.jpg?b=1&s=612x612&w=0&k=20&c=DvAQDJ_PaQuyibVbQuSF4XUodnubNZl9_zBPjTsDVgE="
+                            alt="">
+                    </div>
+                    <div class="video-details">
+                        <div class="detail-template">
+                            <div class="creator-profile">
+                                <img src="https://yt3.ggpht.com/yti/AHyvSCCa1HgGbu7e7ef4QZF2RCV8msnpkkMrj5sO05T0=s88-c-k-c0x00ffffff-no-rj-mo"
+                                    alt="creator-profile">
+                            </div>
+                            <div class="video-description">
+                                <div class="title">
+                                    <p>Great Country, Nepal I love this country very much so pleased to visit here.
+                                    </p>
+                                </div>
+                                <div class="creator-name">Subarna Mainali</div>
+                                <div class="views-time">144k views <sup>. </sup>2 year ago </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-shower">
+                    <div class="video-thumbnail">
+                        <img src="https://media.istockphoto.com/id/530450181/photo/nepal.jpg?b=1&s=612x612&w=0&k=20&c=DvAQDJ_PaQuyibVbQuSF4XUodnubNZl9_zBPjTsDVgE="
+                            alt="">
+                    </div>
+                    <div class="video-details">
+                        <div class="detail-template">
+                            <div class="creator-profile">
+                                <img src="https://yt3.ggpht.com/yti/AHyvSCCa1HgGbu7e7ef4QZF2RCV8msnpkkMrj5sO05T0=s88-c-k-c0x00ffffff-no-rj-mo"
+                                    alt="creator-profile">
+                            </div>
+                            <div class="video-description">
+                                <div class="title">
+                                    <p>Great Country, Nepal I love this country very much so pleased to visit here.
+                                    </p>
+                                </div>
+                                <div class="creator-name">Subarna Mainali</div>
+                                <div class="views-time">144k views <sup>. </sup>2 year ago </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-shower">
+                    <div class="video-thumbnail">
+                        <img src="https://media.istockphoto.com/id/530450181/photo/nepal.jpg?b=1&s=612x612&w=0&k=20&c=DvAQDJ_PaQuyibVbQuSF4XUodnubNZl9_zBPjTsDVgE="
+                            alt="">
+                    </div>
+                    <div class="video-details">
+                        <div class="detail-template">
+                            <div class="creator-profile">
+                                <img src="https://yt3.ggpht.com/yti/AHyvSCCa1HgGbu7e7ef4QZF2RCV8msnpkkMrj5sO05T0=s88-c-k-c0x00ffffff-no-rj-mo"
+                                    alt="creator-profile">
+                            </div>
+                            <div class="video-description">
+                                <div class="title">
+                                    <p>Great Country, Nepal I love this country very much so pleased to visit here.
+                                    </p>
+                                </div>
+                                <div class="creator-name">Subarna Mainali</div>
+                                <div class="views-time">144k views <sup>. </sup>2 year ago </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-shower">
+                    <div class="video-thumbnail">
+                        <img src="https://media.istockphoto.com/id/530450181/photo/nepal.jpg?b=1&s=612x612&w=0&k=20&c=DvAQDJ_PaQuyibVbQuSF4XUodnubNZl9_zBPjTsDVgE="
+                            alt="">
+                    </div>
+                    <div class="video-details">
+                        <div class="detail-template">
+                            <div class="creator-profile">
+                                <img src="https://yt3.ggpht.com/yti/AHyvSCCa1HgGbu7e7ef4QZF2RCV8msnpkkMrj5sO05T0=s88-c-k-c0x00ffffff-no-rj-mo"
+                                    alt="creator-profile">
+                            </div>
+                            <div class="video-description">
+                                <div class="title">
+                                    <p>Great Country, Nepal I love this country very much so pleased to visit here.
+                                    </p>
+                                </div>
+                                <div class="creator-name">Subarna Mainali</div>
+                                <div class="views-time">144k views <sup>. </sup>2 year ago </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-shower">
+                    <div class="video-thumbnail">
+                        <img src="https://media.istockphoto.com/id/530450181/photo/nepal.jpg?b=1&s=612x612&w=0&k=20&c=DvAQDJ_PaQuyibVbQuSF4XUodnubNZl9_zBPjTsDVgE="
+                            alt="">
+                    </div>
+                    <div class="video-details">
+                        <div class="detail-template">
+                            <div class="creator-profile">
+                                <img src="https://yt3.ggpht.com/yti/AHyvSCCa1HgGbu7e7ef4QZF2RCV8msnpkkMrj5sO05T0=s88-c-k-c0x00ffffff-no-rj-mo"
+                                    alt="creator-profile">
+                            </div>
+                            <div class="video-description">
+                                <div class="title">
+                                    <p>Great Country, Nepal I love this country very much so pleased to visit here.
+                                    </p>
+                                </div>
+                                <div class="creator-name">Subarna Mainali</div>
+                                <div class="views-time">144k views <sup>. </sup>2 year ago </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

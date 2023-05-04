@@ -1,0 +1,274 @@
+body {
+    background-color: #0f0f0f;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+/* @font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(fonts/Roboto-Regular.ttf);
+} */
+
+.top-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.top {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: -10px 20px;
+}
+
+.logo-description p {
+    margin-left: -12px;
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.logo img {
+    width: 4vh;
+}
+
+.search input {
+    width: 50vh;
+    justify-content: space-between;
+    padding: 14px 15px;
+    border-radius: 50px 0 0 50px;
+    border: 1px solid #303030;
+    background-color: #121212;
+    color: white;
+    font-size: 16px;
+}
+
+.mic{
+    border : 1px solid #181818;
+    padding: 11px;
+    margin-left: -10px;
+    background-color: #181818;
+    border-radius: 100%;
+}
+
+.mic:hover{
+    cursor: pointer;
+}
+
+.top.top-center {
+    width: 100%;
+}
+
+.top.top-right {
+    justify-content: right;
+    padding-right: 20px;
+}
+
+.threeslash svg {
+    width: 20px;
+}
+.threeslash svg:hover {
+    cursor: pointer;
+}
+
+.search-icon {
+    padding: 0 10px 0 0;
+    margin-left: -19.98px;
+    width: 45px;
+    height: 46px;
+    border: 1px solid #303030;
+    background-color: #222222;
+    border-radius: 0 50px 50px 0;
+}
+
+.search-icon svg {
+    width: 24px;
+    height: 45px;
+    padding-left: 15px;
+    color: #8a8a8a;
+}
+
+.search-icon svg:hover {
+    cursor: pointer;
+}
+
+.profile img{
+    width: 31px;
+    border-radius: 100%;
+}
+
+.profile img:hover{
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main-left{
+    width: 12%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap:10px;
+}
+
+ .create-icon img{
+    width: 26px;
+ }
+.left-category{
+    display: inline-flex;
+    align-items: center;
+    border-radius: 15px;
+    gap : 15px;
+    margin:-2px 0;
+    padding-left: 2vh;
+}
+.left-category:hover{
+    background-color: #3f3f3f;
+    cursor: pointer;
+}
+.left-category p{
+    font-size: 16px;
+}
+.left-category:nth-child(1){
+    background-color: #272727;
+}
+.main-left-img img{
+    width: 22px;
+    height: 20px;
+}
+
+.main-content{
+    width: 88%; 
+    margin: 10px;
+}
+
+hr{
+    width: 20vh;
+    border: 1px solid #3f3f3f;
+}
+
+.main-category{
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+    align-items: center;
+    font-size: 15px;
+}
+
+.main-category div{
+    border-radius: 10px;
+    padding: 0 11px 10px 11px;
+    height: 34px;
+    text-align: center;
+    background-color: #272727;
+}
+.left-category img{
+    width: 24px;
+    height: 24px;
+}
+
+.main-category div:nth-child(1){
+    color: #000000;
+    background-color: white;
+}
+
+.main-category div:hover{
+    background-color: #3f3f3f;
+    cursor: pointer;
+}
+
+.main-category div:nth-child(1):hover{
+    color: #000000;
+    background-color: white;
+    cursor: pointer;
+}
+.videos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    overflow-x: hidden;
+}
+.video-shower{
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 6px -8px 6px 0px;
+}
+
+.video-thumbnail img{
+    padding: 5px;
+    width: 380px;
+    height: auto;
+    border-radius: 20px;
+}
+.detail-template{
+    display: grid;
+    grid-template-columns: 0.2fr 0.8fr;  
+}
+
+.video-description{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    justify-content: flex-start;
+}
+
+.creator-profile img{
+    padding: 5px 10px;
+    border-radius: 100%;
+    object-fit: cover;
+    width: 45px;
+} 
+.title{
+    margin-top: -15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.creator-name{
+    margin-top: -15px;
+}
+.views-time{
+    margin-top: -6px;
+}
+.creator-name,.views-time{
+    font-size: 14px;
+    color: #848484;
+}
+
+ .video-shower:hover{
+ cursor: pointer;       
+}
+
+
+.create-icon img:hover{
+    cursor: pointer;
+}
+
+.notification svg{
+    cursor: pointer;
+}
+
+.divider{
+    width: 160vh;
+    height: 2px;
+    background-color: #3f3f3f;
+}
+.youtube-shorts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 20px 6px 10px 6px;
+}
+
+.thumbnail-shorts img{
+    width: 185px;
+    border-radius: 8px;
+}
+.views p{
+    margin-top: -11px;
+    font-size: 14px;
+    color: #848484;
+}
+.youtube-shorts:hover{
+    cursor: pointer;
+}
