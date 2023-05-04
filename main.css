@@ -92,10 +92,8 @@ body {
 }
 
 .profile img{
-    padding: 5px 10px;
+    width: 31px;
     border-radius: 100%;
-    object-fit: cover;
-    width: 45px;
 }
 
 .profile img:hover{
